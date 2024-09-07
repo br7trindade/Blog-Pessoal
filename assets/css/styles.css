@@ -1,4 +1,18 @@
-body{
- 
 
-}
+ 
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .caixaGrande{   
+        
+        display: flex;
+        justify-content: space-between; /* Espaça os itens igualmente */
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+        padding: 10px; /* Adiciona algum espaçamento ao redor das divs */
+        background-color: #f0f0f0; /* Apenas para visualização */
+    }
+
+    
