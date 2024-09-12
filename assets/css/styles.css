@@ -1,93 +1,194 @@
-
- /* Estilização geral */
+/* Estilização geral */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('sua-imagem-de-fundo.jpg');
+    background: linear-gradient(to left, rgba(152, 15, 15, 0.7), rgba(70, 12, 12, 0.7)), 
+    url('/ab4a2f89-ea96-44cb-84f7-502bcb8a2011.jfif');
     background-size: cover;
     color: #fff;
 }
 
+
+
+
+
+
 /* Caixa principal */
 .caixaGrande {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Alinha itens à esquerda, centro e direita */
     align-items: center;
     padding: 20px;
-    background-color: #7c0000;
+    background-color: #822323;
+    border-radius: 15px;
 }
+
+
+
+
+
 
 /* Foto no cabeçalho */
 .melo img {
-    max-width: 50%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
 }
+.melo {
+    width: 10%;
+}
 
-/* Primeiro grupo de botões - navegação */
+
+
+
+
+
+
+
+
+
+
+/* Grupo de botões com a classificação toy */
+.toy {
+ 
+}
+
 .toy nav ul {
+   display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+align-items: center;
+   
 }
 
 .toy nav ul li {
     margin-right: 20px;
+    
 }
 
 .toy nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 .toy nav ul li a:hover {
     text-decoration: underline;
+   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Segundo grupo de botões */
+.bus {
+    align-items: end;
+    display: flex;
+}
+
 .bus a {
+    align-items: end;
     color: #fff;
-    background-color: #f5a623;
-    padding: 10px 20px;
+   display: flex;
+    padding: 0px 0px;
     margin-left: 10px;
     text-decoration: none;
     border-radius: 20px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .bus a:hover {
     background-color: #e59400;
 }
 
-/* Texto do cabeçalho */
-header h1 {
-    font-size: 48px;
-    margin: 0;
-}
 
-header p {
-    font-size: 24px;
-    margin-top: 10px;
-}
 
-/* Botão "TRY PREMIUM" */
-button.cta {
-    background-color: #f5a623;
+
+
+
+
+
+
+
+
+
+
+/* Estilo geral para a seção */
+section {
+    
+    padding: 40px;
     color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    cursor: pointer;
+    text-align: left;
+    font-family: Arial, sans-serif;
 }
 
-button.cta:hover {
-    background-color: #e59400;
+/* Estilo para o título principal */
+h1 {
+    font-size: 2.5rem; /* Tamanho maior para o título */
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-    
+/* Estilo para os parágrafos */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
 
+
+.parte1 div{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
     
+}
+
+.parte1 a{
+    display: inline-block;
+    background-color: #f5a623; /* Cor de fundo laranja/dourada */
+    color: white; /* Cor do texto */
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none; /* Remover sublinhado */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: all 0.3s ease;
+    margin: 20px 0; /* Margem opcional */
+}
+
+/* Estilo ao passar o mouse por cima */
+.btn-premium:hover {
+    background-color: #e59420; /* Cor ligeiramente mais escura */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Aumentar a sombra no hover */
+    transform: translateY(-2px); /* Elevar ligeiramente o botão */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
